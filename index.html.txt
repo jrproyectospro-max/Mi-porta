@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portafolio - Junior</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      background-color: #1a202c;
+      color: #f7fafc;
+    }
+  </style>
+</head>
+<body class="bg-gray-900 text-white">
+
+  <!-- Hero -->
+  <section
+    class="h-screen flex flex-col items-center justify-center text-center bg-gradient-to-b from-black via-gray-900 to-gray-800 relative overflow-hidden"
+  >
+    <div data-aos="fade-up" data-aos-duration="1500">
+      <h1 class="text-5xl md:text-6xl font-bold mb-4">Junior</h1>
+      <p class="text-lg md:text-xl text-gray-300">
+        Asesor Estratégico de Negocios · Conferencista
+      </p>
+      <a
+        href="#contacto"
+        class="mt-8 inline-block bg-blue-600 hover:bg-blue-700 px-8 py-3 rounded-full font-semibold transition"
+        >Contáctame</a
+      >
+    </div>
+  </section>
+
+  <!-- Sobre mí -->
+  <section class="py-20 px-4 max-w-5xl mx-auto">
+    <h2 class="text-3xl font-bold mb-6 text-center" data-aos="fade-up">Sobre mí</h2>
+    <p
+      class="text-lg text-gray-300 leading-relaxed text-center max-w-3xl mx-auto"
+      data-aos="fade-up"
+      data-aos-delay="200"
+    >
+      Licenciado en Comunicación Social Corporativa, con formación en Marketing
+      Digital y amplia experiencia en liderazgo, negociación, pensamiento
+      estratégico y marketing.<br />
+      He sido CEO, Director de Marketing y Asesor de negocios. Mi pasión: enseñar,
+      inspirar y guiar a personas y marcas hacia el éxito.
+    </p>
+  </section>
+
+  <!-- Experiencia -->
+  <section class="bg-gray-800 py-20">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-10 text-center" data-aos="fade-up">
+        Experiencia
+      </h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div
+          class="bg-gray-900 p-6 rounded-lg shadow-lg hover:scale-105 transition transform"
+          data-aos="fade-right"
+        >
+          <h3 class="text-xl font-bold mb-2">Asesor Estratégico de Negocios</h3>
+          <p class="text-gray-400 text-sm">Independiente · Actualidad</p>
+          <p class="mt-3 text-gray-300">
+            Desarrollo de estrategias comerciales y de expansión para marcas y
+            emprendedores.
+          </p>
+        </div>
+        <div
+          class="bg-gray-900 p-6 rounded-lg shadow-lg hover:scale-105 transition transform"
+          data-aos="fade-left"
+        >
+          <h3 class="text-xl font-bold mb-2">CEO - Growth Partner</h3>
+          <p class="text-gray-400 text-sm">Agencia de Crecimiento</p>
+          <p class="mt-3 text-gray-300">
+            Liderazgo de equipos y ejecución de campañas de marketing digital.
+          </p>
+        </div>
+        <div
+          class="bg-gray-900 p-6 rounded-lg shadow-lg hover:scale-105 transition transform"
+          data-aos="fade-right"
+        >
+          <h3 class="text-xl font-bold mb-2">Director de Marketing - Vibes</h3>
+          <p class="text-gray-400 text-sm">Agencia de Marketing</p>
+          <p class="mt-3 text-gray-300">
+            Diseño y ejecución de estrategias publicitarias y branding.
+          </p>
+        </div>
+        <div
+          class="bg-gray-900 p-6 rounded-lg shadow-lg hover:scale-105 transition transform"
+          data-aos="fade-left"
+        >
+          <h3 class="text-xl font-bold mb-2">Gerente Expansión y Marketing</h3>
+          <p class="text-gray-400 text-sm">Quick-Press</p>
+          <p class="mt-3 text-gray-300">
+            Posicionamiento y crecimiento en nuevas zonas del mercado.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Servicios -->
+  <section class="py-20">
+    <div class="max-w-6xl mx-auto px-4 text-center">
+      <h2 class="text-3xl font-bold mb-10" data-aos="fade-up">Servicios</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div
+          class="bg-gray-900 p-6 rounded-lg shadow-lg hover:shadow-xl transition"
+          data-aos="zoom-in"
+        >
+          <h3 class="text-xl font-bold mb-3 text-blue-400">Consultoría Estratégica</h3>
+          <p class="text-gray-300">
+            Planes de negocio y estrategias comerciales adaptadas al mercado.
+          </p>
+        </div>
+        <div
+          class="bg-gray-900 p-6 rounded-lg shadow-lg hover:shadow-xl transition"
+          data-aos="zoom-in"
+          data-aos-delay="200"
+        >
+          <h3 class="text-xl font-bold mb-3 text-blue-400">Conferencias y Talleres</h3>
+          <p class="text-gray-300">
+            Charlas sobre marketing, negocios, oratoria y liderazgo.
+          </p>
+        </div>
+        <div
+          class="bg-gray-900 p-6 rounded-lg shadow-lg hover:shadow-xl transition"
+          data-aos="zoom-in"
+          data-aos-delay="400"
+        >
+          <h3 class="text-xl font-bold mb-3 text-blue-400">Estrategia de Marca</h3>
+          <p class="text-gray-300">
+            Creación y posicionamiento de marcas personales y corporativas.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section
+    id="contacto"
+    class="bg-gradient-to-r from-blue-700 to-indigo-800 py-20 text-center"
+  >
+    <div class="max-w-4xl mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-6" data-aos="fade-up">Contáctame</h2>
+      <p class="mb-8 text-gray-200" data-aos="fade-up" data-aos-delay="200">
+        ¿Tienes un proyecto o idea? Hablemos.
+      </p>
+      <a
+        href="mailto:tuemail@correo.com"
+        class="bg-white text-blue-700 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition"
+        data-aos="fade-up"
+        data-aos-delay="400"
+        >Enviar Correo</a
+      >
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-950 text-gray-500 text-center py-6 text-sm">
+    © 2025 Junior - Todos los derechos reservados.
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
